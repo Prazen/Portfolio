@@ -1,0 +1,64 @@
+/*whole change */
+body{
+    text-align: center;
+    margin: 0;
+}
+div{
+    display: block;
+}
+
+/*top container modify*/
+
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+/*top-cloud*/
+
+.top-cloud{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 280px;
+    top: 20px;
+}
+
+/* text title */
+
+.title-text{
+    text-align: center;
+    font-family: 'Kranky', serif;
+    margin: 0;
+}
+
+/*inside title */
+
+h1{
+    color: #66bfbf;
+    font-size: 5.65rem;
+    margin: 50px auto 0 auto;
+}
+h2{
+    font-family: 'Amita', serif;
+    color: #66bfbf;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+/* bottom cloud */
+
+.bottom-cloud{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 300px;
+    top: 400px;
+}
+
+/*mountain img*/
+
+.mountain-img{
+    position: relative;
+}
