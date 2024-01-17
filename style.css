@@ -1,11 +1,10 @@
 /*whole change */
 body{
+    color: #40514e;
     text-align: center;
     margin: 0;
 }
-div{
-    display: block;
-}
+
 
 /*top container modify*/
 
@@ -14,7 +13,9 @@ div{
     position: relative;
     padding-top: 100px;
 }
-
+div{
+    display: block;
+}
 /*top-cloud*/
 
 .top-cloud{
@@ -29,7 +30,6 @@ div{
 
 .title-text{
     text-align: center;
-    font-family: 'Kranky', serif;
     margin: 0;
 }
 
@@ -37,8 +37,10 @@ div{
 
 h1{
     color: #66bfbf;
+    font-family: 'Kranky', serif;
     font-size: 5.65rem;
     margin: 50px auto 0 auto;
+    font-weight: bold;
 }
 h2{
     font-family: 'Amita', serif;
@@ -57,8 +59,22 @@ h2{
     top: 400px;
 }
 
+
+/*Middle container */
+.middle-container{
+    margin: 100px 0;
+}
+
+
+.profile-pic{
+   border-radius: 100%;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    font-size: 20px;
+}
 /*mountain img*/
 
-.mountain-img{
-    position: relative;
-}
+
