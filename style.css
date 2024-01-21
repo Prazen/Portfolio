@@ -51,7 +51,7 @@ h2{
 
 h3{
     color: #11999e;
-    font-family: 'Amita', serif;
+    font-family: 'Montserrat', serif;
 }
 
 /* bottom cloud */
@@ -76,6 +76,7 @@ h3{
 }
 
 .intro{
+    font-family: 'Montserrat', serif;
     width: 30%;
     margin: auto;
     font-size: 20px;
@@ -102,6 +103,7 @@ hr{
 }
 
 .parent p{
+    font-family: 'Montserrat', serif;
     line-height: 2 ;
 }
 
@@ -114,6 +116,8 @@ hr{
 /* Get in touch container */    
 
 .contact-msg{
+    font-family: 'Montserrat', serif;
+    line-height: 2;
     width: 40%;
     margin: 40px auto 60px;
 }
