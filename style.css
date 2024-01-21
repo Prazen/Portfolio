@@ -83,7 +83,7 @@ h3{
 }
 
 hr{
-    border: dotted 6px;
+    border: dotted rgb(209, 206, 206) 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
@@ -132,4 +132,26 @@ hr{
 
 .btn:hover{
    background: #11999e;
+}
+
+/* bottom/footer container */
+
+.last-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px 0;
+}
+
+.last-container > .footer-link{
+    color:#11999e;
+    font-family:'Montserrat', serif ;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
