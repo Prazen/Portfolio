@@ -1,39 +1,17 @@
 /*whole change */
-body{
-    color: #40514e;
-    text-align: center;
+*{
+    box-sizing: border-box;
     margin: 0;
 }
 
-
-/*top container modify*/
-
-.top-container{
-    background-color: #e4f9f5;
-    position: relative;
-    padding-top: 100px;
+body{
+    text-align: center;
+    color: #40514e;
 }
+
 div{
     display: block;
 }
-/*top-cloud*/
-
-.top-cloud{
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    right: 280px;
-    top: 20px;
-}
-
-/* text title */
-
-.title-text{
-    text-align: center;
-    margin: 0;
-}
-
-/*inside title */
 
 h1{
     color: #66bfbf;
@@ -42,8 +20,9 @@ h1{
     margin: 50px auto 0 auto;
     font-weight: bold;
 }
+
 h2{
-    font-family: 'Amita', serif;
+    font-family: 'Amita', serif;    /*inside title */
     color: #66bfbf;
     font-size: 2.5rem;
     padding-bottom: 10px;
@@ -54,6 +33,31 @@ h3{
     font-family: 'Montserrat', serif;
 }
 
+hr{
+    border: dotted rgb(209, 206, 206) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+/*top container modify*/
+
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+/*top-cloud*/
+
+.top-cloud{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 280px;
+    top: 20px;
+}
+
 /* bottom cloud */
 
 .bottom-cloud{
@@ -62,6 +66,13 @@ h3{
     position: absolute;
     left: 300px;
     top: 400px;
+}
+
+/* text title */
+
+.title-text{
+    text-align: center;
+    margin: 0;
 }
 
 
@@ -79,15 +90,9 @@ h3{
     font-family: 'Montserrat', serif;
     width: 30%;
     margin: auto;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-hr{
-    border: dotted rgb(209, 206, 206) 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
-}
 
 /* parent class (Grid) */
 
@@ -155,3 +160,31 @@ hr{
     font-size: 0.75rem;
     padding: 20px 0;
 }
+/* mobile */
+/* @media only screen and (max-width: 400px){
+    .top-container{
+        max-width: 400px;
+        padding: 25px 0 0 0;
+    }
+
+    .top-cloud, .bottom-cloud{
+        width: 80px;
+        height: 80px;
+    }
+    .top-cloud{
+        top: 10%;
+        left: 70%;
+    }
+    .bottom-cloud{
+        top: 70%;
+        left: 10%;
+    }
+
+    .mountain-img{
+        max-width: 300px;
+    }
+
+    .parent{
+        width: 100%;
+    }
+} */
