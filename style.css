@@ -194,8 +194,8 @@ hr{
 
     .profile-pic{
         border-radius: 100%;
-        width: 90px;
-        height: 90px;
+        width: 100px;
+        height: 100px;
      }
 
      .intro{
@@ -203,11 +203,15 @@ hr{
         width: 50%;
         margin: auto;
         margin-bottom: 10px;
-        font-size: 15px;
+        font-size: 16px;
     }
     
     .parent {
         width: 100%;
-      margin: 100px auto 0 auto;
+        margin: 100px auto 0 auto;
+    }
+
+    .contact-msg{
+        width: 70%;
     }
 }
