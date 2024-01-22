@@ -107,16 +107,20 @@ hr{
     column-gap: 1rem;
 }
 
+.parent .typing-cat-img{
+    width: 150px ;
+    height: 150px;
+}
 .parent p{
     font-family: 'Montserrat', serif;
     line-height: 2 ;
 }
 
 /* used flex for item */
-.parent .game {
+/* .parent .game {
     display: flex;
     justify-content: center;
-}
+} */
 
 /* Get in touch container */    
 
@@ -161,7 +165,7 @@ hr{
     padding: 20px 0;
 }
 /* mobile */
-/* @media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
     .top-container{
         max-width: 400px;
         padding: 25px 0 0 0;
@@ -184,7 +188,26 @@ hr{
         max-width: 300px;
     }
 
-    .parent{
-        width: 100%;
+    .middle-container{
+        margin: 80px auto;
     }
-} */
+
+    .profile-pic{
+        border-radius: 100%;
+        width: 90px;
+        height: 90px;
+     }
+
+     .intro{
+        font-family: 'Montserrat', serif;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    .parent {
+        width: 100%;
+      margin: 100px auto 0 auto;
+    }
+}
